@@ -1,18 +1,19 @@
 {
   "name": "Practically Playing Library",
-  "short_name": "Play Library",
+  "short_name": "PP Library",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#007bff",
+  "theme_color": "#ffffff",
+  "description": "A library of Practically Playing mini-apps.",
   "icons": [
     {
-      "src": "/icons/play-library-icon-192.png",
+      "src": "/Images/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/play-library-icon-512.png",
+      "src": "/Images/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
