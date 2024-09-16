@@ -1,46 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Practically Playing Mini-App Library</title>
+  <title>Practically Playing Library</title>
   <link rel="manifest" href="/manifest.json">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-    .container {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-    }
-    .app {
-      margin: 20px;
-    }
-    .app img {
-      width: 100px;
-      height: 100px;
-    }
-    .app a {
-      display: inline-block;
-      padding: 10px 15px;
-      background-color: #007bff;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-top: 10px;
-    }
-  </style>
+  <script src="/service-worker.js"></script>
 </head>
 <body>
   <h1>Practically Playing Library</h1>
-  <div class="container">
-    <div class="app">
-      <img src="https://yourwebsite.com/path-to-icon/pirate-icon.png" alt="Pirate Playlist">
-      <p>Pirate Playlist</p>
-      <a href="https://practicallyplaying.github.io/Pirate_Playlist/" target="_blank">Play Now</a>
-    </div>
+  <div>
+    <img src="Images/pirate-icon.png" alt="Pirate Playlist">
+    <h2>Pirate Playlist</h2>
+    <button onclick="window.location.href='https://yourwebsite.com/play-pirate-playlist'">Play Now</button>
   </div>
 </body>
 </html>
