@@ -1,31 +1,21 @@
 {
-    "name": "Practically Playing Library",
-    "short_name": "PP Library",
-    "start_url": "/index.html",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#ffffff",
-    "description": "A library of Practically Playing mini-apps.",
-    "icons": [
-        {
-            "src": "/Images/icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/Images/icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        },
-        {
-            "src": "/Images/icon-192x192-pirate.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/Images/icon-512x512-pirate.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ]
+  "name": "Practically Playing Library",
+  "short_name": "PP Library",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "description": "A library of Practically Playing mini-apps.",
+  "icons": [
+    {
+      "src": "/Images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
