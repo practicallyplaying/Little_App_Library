@@ -1,23 +1,26 @@
+const CACHE_NAME = 'pwa-cache-v1';
+const urlsToCache = [
+  '/',
+  '/index.html',
+  '/manifest.json',
+  '/Images/icon-192x192.png',
+  '/Images/icon-512x512.png'
+];
 
-self.addEventListener('install', function(event) {
+self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open('pp-library-cache').then(function(cache) {
-      return cache.addAll([
-        '/',
-        '/index.html',
-        '/manifest.json',
-        '/Images/icon-192x192.png',
-        '/Images/icon-512x512.png',
-        '/Images/pirate-icon.png'
-      ]);
-    })
+    caches.open(CACHE_NAME)
+      .then(cache => {
+        return cache.addAll(urlsToCache);
+      })
   );
 });
 
-self.addEventListener('fetch', function(event) {
+self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.match(event.request).then(function(response) {
-      return response || fetch(event.request);
-    })
+    caches.match(event.request)
+      .then(response => {
+        return response || fetch(event.request);
+      })
   );
 });
