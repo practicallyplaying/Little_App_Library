@@ -4,7 +4,7 @@ const urlsToCache = [
   '/index.html',
   '/manifest.json',
   '/Images/icon-192x192-pirate.png',
-  '/Images/icon-512x512-pirate.png'
+  '/Images/icon-512x512-pirate.png', '/Images/icon-192x192.png', '/Images/icon-512x512.png'
 ];
 
 <<<<<<< HEAD
@@ -32,7 +32,7 @@ self.addEventListener('fetch', event => {
         '/index.html',
         '/manifest.json',
         '/Images/icon-192x192-pirate.png',
-        '/Images/icon-512x512-pirate.png'
+        '/Images/icon-512x512-pirate.png', '/Images/icon-192x192.png', '/Images/icon-512x512.png'
     ];
 
     self.addEventListener('install', event => {
