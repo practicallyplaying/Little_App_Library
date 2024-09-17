@@ -1,0 +1,1 @@
+PubViewer.Document.Renditions.Mobile = {"formats":[{"id":1,"label":"736x414 (iPhone 8 Plus / SE 2)","screenHeight":414,"screenWidth":736}],"localizations":[{"default":true,"id":1,"label":"English","languageCode":"en"}],"orientations":[{"id":1,"label":"Portrait","orientation":"portrait"}]};
