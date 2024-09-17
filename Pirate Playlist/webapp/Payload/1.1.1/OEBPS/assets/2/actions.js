@@ -1,7 +1,7 @@
 pubcoder.projectID = pubcoder.projectID || "174B25598C6F4BBFBEE716B4FBA1BE0D";
 pubcoder.project.id = pubcoder.project.id || "174B25598C6F4BBFBEE716B4FBA1BE0D";
 pubcoder.project.title = pubcoder.project.title || "Practically Playing\'s Project";
-pubcoder.page.id = pubcoder.page.id || 6348;
+pubcoder.page.id = pubcoder.page.id || 6416;
 pubcoder.page.title = pubcoder.page.title || "2";
 pubcoder.page.number = pubcoder.page.number || 2;
 pubcoder.page.alias = pubcoder.page.alias || "";
@@ -72,6 +72,17 @@ var askAudioPermission = false;
 	 * 
 	 */
 	
+var drawerObj6545 = new Drawer('obj6545', {
+	backgroundColor: "rgba(0,0,0,0)",
+	autosave: true,
+	annotationMode: false,
+	eraseDialogMessage: "Are you sure to erase your drawing?",
+	eraseButtonLabel: "Erase",
+	eraseCancelLabel: "Cancel",
+	noteDeletionMessage: "Are you sure to delete this note?",
+	noteDeletionDeleteButtonLabel: "Delete",
+	noteDeletionCancelButtonLabel: "Cancel"
+});
     
  	/*
 	 * 
@@ -173,6 +184,66 @@ var askAudioPermission = false;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		
 		
 		/*
@@ -204,9 +275,15 @@ $(window).on(pubcoder.events.pagePlay, function() {
 		});	
 	}
 	
-$("#obj6349").trigger('SCEventShow');
-$("#obj6351").trigger('SCEventShow');
-$("#obj6383").trigger('SCEventShow');
-$("#obj6385").trigger('SCEventShow');
+$("#obj6417").trigger('SCEventShow');
+$("#obj6419").trigger('SCEventShow');
+$("#obj6511").trigger('SCEventShow');
+$("#obj6512").trigger('SCEventShow');
+$("#obj6514").trigger('SCEventShow');
+$("#obj6516").trigger('SCEventShow');
+$("#obj6518").trigger('SCEventShow');
+$("#obj6520").trigger('SCEventShow');
+$("#obj6545").trigger('SCEventShow');
+$("#obj6558").trigger('SCEventShow');
 	
 });

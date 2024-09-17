@@ -6,7 +6,7 @@
 	<meta property="rendition:layout">pre-paginated</meta>	
 	<meta property="rendition:orientation">portrait</meta>
 	
-	<meta property="dcterms:modified">2024-09-16T23:38:06Z</meta>
+	<meta property="dcterms:modified">2024-09-17T01:47:37Z</meta>
 	<meta property="media:active-class">-epub-media-overlay-active</meta>
 	<meta property="media:duration">00:00:00</meta>
 	
@@ -14,7 +14,7 @@
 	<dc:creator>Practically Playing</dc:creator>
 	<dc:description>Powered by PubCoder</dc:description>
 	<dc:publisher>Practically Playing</dc:publisher>
-	<dc:date>2024-09-16</dc:date>
+	<dc:date>2024-09-17</dc:date>
 	<dc:rights>© 2024 Practically Playing</dc:rights>
 	<dc:language>en</dc:language>
 	<dc:identifier id="BookID">174B25598C6F4BBFBEE716B4FBA1BE0D</dc:identifier>
@@ -175,92 +175,19 @@
 <!--page 2-->
 <item id="js2" href="assets/2/actions.js" media-type="text/javascript" />
 <item id="css2" href="assets/2/styles.css" media-type="text/css"/>
-<item id="page2" pageid="6348"
-      href="assets/2/page.xhtml" media-type="application/xhtml+xml" properties="scripted"
+<item id="page2" pageid="6416"
+      href="assets/2/page.xhtml" media-type="application/xhtml+xml" properties="scripted svg"
       
       />
-<item id="obj6351_image" href="assets/images/obj6351_image.png" media-type="image/png" />
 <item id="thumbnail2" href="assets/2/thumbnail.png" media-type="image/png" />
 <item id="loading2" href="assets/2/loading.jpg" media-type="image/jpeg" />
 
 <!--page 2: end-->
-<!--page 3-->
-<item id="js3" href="assets/3/actions.js" media-type="text/javascript" />
-<item id="css3" href="assets/3/styles.css" media-type="text/css"/>
-<item id="page3" pageid="6355"
-      href="assets/3/page.xhtml" media-type="application/xhtml+xml" properties="scripted"
-      
-      />
-<item id="thumbnail3" href="assets/3/thumbnail.png" media-type="image/png" />
-<item id="loading3" href="assets/3/loading.jpg" media-type="image/jpeg" />
-
-<!--page 3: end-->
-<!--page 4-->
-<item id="js4" href="assets/4/actions.js" media-type="text/javascript" />
-<item id="css4" href="assets/4/styles.css" media-type="text/css"/>
-<item id="page4" pageid="6362"
-      href="assets/4/page.xhtml" media-type="application/xhtml+xml" properties="scripted"
-      
-      />
-<item id="thumbnail4" href="assets/4/thumbnail.png" media-type="image/png" />
-<item id="loading4" href="assets/4/loading.jpg" media-type="image/jpeg" />
-
-<!--page 4: end-->
-<!--page 5-->
-<item id="js5" href="assets/5/actions.js" media-type="text/javascript" />
-<item id="css5" href="assets/5/styles.css" media-type="text/css"/>
-<item id="page5" pageid="6376"
-      href="assets/5/page.xhtml" media-type="application/xhtml+xml" properties="scripted"
-      
-      />
-<item id="thumbnail5" href="assets/5/thumbnail.png" media-type="image/png" />
-<item id="loading5" href="assets/5/loading.jpg" media-type="image/jpeg" />
-
-<!--page 5: end-->
-<!--page 6-->
-<item id="js6" href="assets/6/actions.js" media-type="text/javascript" />
-<item id="css6" href="assets/6/styles.css" media-type="text/css"/>
-<item id="page6" pageid="6397"
-      href="assets/6/page.xhtml" media-type="application/xhtml+xml" properties="scripted"
-      
-      />
-<item id="thumbnail6" href="assets/6/thumbnail.png" media-type="image/png" />
-<item id="loading6" href="assets/6/loading.jpg" media-type="image/jpeg" />
-
-<!--page 6: end-->
-<!--page 7-->
-<item id="js7" href="assets/7/actions.js" media-type="text/javascript" />
-<item id="css7" href="assets/7/styles.css" media-type="text/css"/>
-<item id="page7" pageid="6369"
-      href="assets/7/page.xhtml" media-type="application/xhtml+xml" properties="scripted"
-      
-      />
-<item id="thumbnail7" href="assets/7/thumbnail.png" media-type="image/png" />
-<item id="loading7" href="assets/7/loading.jpg" media-type="image/jpeg" />
-
-<!--page 7: end-->
-<!--page 8-->
-<item id="js8" href="assets/8/actions.js" media-type="text/javascript" />
-<item id="css8" href="assets/8/styles.css" media-type="text/css"/>
-<item id="page8" pageid="6406"
-      href="assets/8/page.xhtml" media-type="application/xhtml+xml" properties="scripted"
-      
-      />
-<item id="thumbnail8" href="assets/8/thumbnail.png" media-type="image/png" />
-<item id="loading8" href="assets/8/loading.jpg" media-type="image/jpeg" />
-
-<!--page 8: end-->
 	</manifest>
 	
 	<spine page-progression-direction="ltr">
 		<itemref idref="page1" />
 <itemref idref="page2" />
-<itemref idref="page3" />
-<itemref idref="page4" />
-<itemref idref="page5" />
-<itemref idref="page6" />
-<itemref idref="page7" />
-<itemref idref="page8" />
 	</spine>
 	
 	<guide> 

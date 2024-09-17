@@ -18,7 +18,7 @@ div.SCContent {
 }
 
 
-div#obj6349 {
+div#obj6417 {
 position: absolute;
 overflow: hidden;
 top: -17px;
@@ -35,20 +35,20 @@ user-select: none;
 -webkit-user-select: none;
 -ms-user-select: none;
 }
-img#obj6349_img {
+img#obj6417_img {
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 1009px;
 	height: 758px;
 }
-div#obj6351 {
+div#obj6419 {
 position: absolute;
 overflow: hidden;
-top: 36px;
-left: -155px;
-width: 725px;
-height: 664px;
+top: 12px;
+left: -96px;
+width: 607px;
+height: 712px;
 opacity: 1;
 z-index: 1;
 display:block;
@@ -59,63 +59,389 @@ user-select: none;
 -webkit-user-select: none;
 -ms-user-select: none;
 }
-img#obj6351_img {
+img#obj6419_img {
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 725px;
-	height: 664px;
+	width: 607px;
+	height: 712px;
 }
 
-div#obj6383 {
+div#obj6558 {
 position: absolute;
-overflow-x: hidden;
-overflow-y: auto;
--webkit-overflow-scrolling: touch;
-top: 174px;
-left: 87px;
-width: 241px;
-height: 455px;
+overflow: hidden;
+top: 80px;
+left: 83px;
+width: 246px;
+height: 50px;
+opacity: 1;
+z-index: 9;
+display:block;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+}
+div#obj6558_content {
+}
+
+
+
+
+
+audio#obj6511 {
+position: absolute;
+overflow: hidden;
+top: 912px;
+left: -48px;
+width: 256px;
+height: 192px;
 opacity: 1;
 z-index: 2;
 display:block;
 pointer-events: auto;
-user-select: text;  
--moz-user-select: text;
--webkit-user-select: text;
--ms-user-select: text;
-font-size: 12px;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
 }
-div#obj6383_content {
-}
-div#obj6385 {
+audio#obj6512 {
 position: absolute;
 overflow: hidden;
-top: 91px;
-left: 88px;
-width: 238px;
-height: 69px;
+top: 1156px;
+left: 11px;
+width: 256px;
+height: 192px;
 opacity: 1;
 z-index: 3;
 display:block;
 pointer-events: auto;
-user-select: text;  
--moz-user-select: text;
--webkit-user-select: text;
--ms-user-select: text;
 
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
 }
-div#obj6385_content {
+audio#obj6514 {
+position: absolute;
+overflow: hidden;
+top: 1138px;
+left: -346px;
+width: 256px;
+height: 192px;
+opacity: 1;
+z-index: 4;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+audio#obj6516 {
+position: absolute;
+overflow: hidden;
+top: 923px;
+left: -369px;
+width: 256px;
+height: 192px;
+opacity: 1;
+z-index: 5;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+audio#obj6518 {
+position: absolute;
+overflow: hidden;
+top: 1150px;
+left: 404px;
+width: 256px;
+height: 192px;
+opacity: 1;
+z-index: 6;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+audio#obj6520 {
+position: absolute;
+overflow: hidden;
+top: 924px;
+left: 396px;
+width: 256px;
+height: 192px;
+opacity: 1;
+z-index: 7;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
 }
 
 
+#obj6545{
+  pointer-event: auto !important;
+  height: 617px; /* full height on page */
+  width: 285px; /* full width on page */
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  position: absolute;
+overflow: hidden;
+top: 60px;
+left: 64px;
+width: 285px;
+height: 617px;
+opacity: 1;
+z-index: 8;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+  /* override rotation value */
+  transform:rotate(0deg) !important;
+  -ms-transform:rotate(0deg) !important;
+  -webkit-transform:rotate(0deg) !important;
+}
+#obj6545 .drawing-area{
+  /*width and height must be the same as canvas */
+  position: absolute;
+  top: 0px; /* top area offset leaving space for tools, tool sizes and clear btn */
+  left: 0px;
+  z-index: 18; /* this has to be smaller then drawing-area-touch zindex */
+  overflow: hidden !important;
+}
+#obj6545 .drawing-area-touch{
+  position: absolute;
+  top: 0px; /* same as drawingarea */
+  left: 0px;
+  z-index: 28; /* this has to be greater then drawing-area zindex */
+  overflow: hidden !important;
+}
+#obj6545 .drawing-area-notes {
+  pointer-events: none;
+  position: absolute;
+  top: 0px; /* same as drawingarea */
+  left: 0px;
+  z-index: 28; /* this has to be greater then drawing-area zindex */
+  overflow: hidden !important;
+}
+#obj6545 .drawing-tmp-area{
+  position: absolute;
+  top: 0px; /* same as drawingarea */
+  left: 0px;
+  overflow: hidden !important;
+}
+
+/* Resize the tool-bar */
+/* To hide the tool bar, set the drawing canvas to the maximum size */
+#obj6545 .tool-bar {
+  display: block;
+  width: 100%;
+  height:30px;  /* user-defined */
+  bottom: 0px;
+  position: absolute;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F4F4F4;
+}
+#obj6545 .tool-bar .tool-item {
+    height: 11px;
+    width:  11px; 
+    border : 1px solid transparent;
+    box-sizing: border-box;
+}
+#obj6545 .tool-bar .tool-item.selected {
+  box-shadow: 0px 0px 2px 2px #007bff;
+}
+#obj6545 .tool-bar .sizeContainer.tool-item {
+    background-color: rgba(128,128,128,0.2);
+    height: 11px;
+    width: 11px;
+    float:left;
+    margin-left: 4px;
+}
+#obj6545 .drawing-tools{
+  display: inline-block;
+  float: left;
+  clear: none;
+  margin-right: 20px;
+}
+#obj6545 .drawing-tools .tool{
+  display: inline-block;
+  margin: 0px;
+}
+
+/* #obj6545 .drawing-tools .tool.selected{
+  border : 1px solid red;
+} */
+#obj6545 .drawing-colors{
+    /* display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important; */
+    display: inline-block;
+    float: left;
+    clear: none;
+    position: relative;
+    width:auto;
+}
+#obj6545 .drawing-colors .color{
+    display: inline-block;
+    float: left;
+    clear: none;
+    position: relative;
+    margin: 0px 5px 0px 0px;
+}
+#obj6545 .drawing-colors .color.selected{
+  border: 1px solid white;
+}
+#obj6545 .drawing-size{
+    /* display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important; */
+    display: inline-block;
+    clear: none;
+    position: relative;
+    margin-left: 8px;
+}
+#obj6545 .drawing-size .sizeContainer{
+  display: inline-block;
+  width: auto;
+  margin-top:0px;
+}
+#obj6545 .drawing-size .size{
+  display: block;
+  position:relative;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  background-color: #979797;
+  margin: 0px;
+  border-radius: 30px;
+  float: left;
+  clear: none;
+}
+#obj6545 .drawing-size .size.selected{
+  background-color: #0A52A2;
+}
+
+#obj6545 .drawing-images {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #F4F4F4;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#obj6545 .drawing-images .drawing-background{
+  width: auto;
+  height: 60px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: none;
+}
+#obj6545 .drawing-images .drawing-background-hidden{
+  display:none;
+}
+#obj6545 .drawing-buttons {
+    display: inline-block;
+    position: absolute;
+    height: 11px;
+    padding: 0px;
+    right: 0px;
+    /* float: right !important; */
+    clear: none;
+}
+#obj6545 .drawing-buttons .tool-item {
+  float: left;
+}
+#obj6545 .drawing-buttons .tool-item.btn-note {
+  display: none;
+  margin-left: 10px;
+}
+#obj6545 .drawing-buttons .tool-item.btn-clear {
+  display: inline-block;
+  margin-left: 10px;
+}
+#obj6545 .drawing-buttons .tool-item.btn-close {
+  display: none;
+  margin-left: 10px;
+}
+#obj6545.SCAnnotationControl .drawing-buttons .tool-item.btn-close {
+  display: inline-block;
+}
 
 
-
-
-
-
-
+#obj6545 .scdrawer-note {
+  position: absolute;
+  display: block;
+  pointer-events: auto;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.9);
+  font-size: 16px;
+  
+  box-shadow: 0px 0px 10px 1px #555;
+}
+#obj6545 .scdrawer-note-tb {
+    height: 25px;
+    background-color: rgba(200,200,200,0.5);
+}
+#obj6545 .scdrawer-note-close {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 21px;
+    height: 21px;
+    background-image: url(../../images/scdrawer-close.svg);
+    
+}
+#obj6545 .scdrawer-note textarea {
+    background-color: transparent;
+    border: 0;
+    padding: 5px;
+    resize: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    height: calc(100% - 25px);
+    font-size: 16px;
+    font-family: inherit;
+}
 
 
 
