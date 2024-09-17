@@ -1,0 +1,1 @@
+PubViewer.Document.Settings = {"appIdentifier":"81522BDBB66440DF81E4C98E1BD9F057","appName":"Practically Playing's Project","backgroundColor":"#EFEEE8","facingPagesInLandscape":false,"lockOrientation":true,"restoreLatestPage":true};
